@@ -1,0 +1,27 @@
+.card-con{
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0,0.2);
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 50px 50px 50px 50px;
+}
+.card-img{
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card-body h2{
+    font-family: "Koh Santepheap", serif;
+    color: #122278;
+    font-weight: 700;
+    margin: 0;
+}
+.card-body p{
+    font-family: "Koh Santepheap", serif;
+    color: #122278;
+    font-weight: 500;
+    font-size: 14px;
+    width: 270px;
+    text-align: justify;
+    margin: 10px 15px;
+}

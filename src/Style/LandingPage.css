@@ -1,0 +1,112 @@
+.header-color{
+    position: relative;
+    overflow: hidden;
+}
+
+.header-link{
+    position: absolute;
+    top: 2%;
+    right: 3%;
+}
+.hLink{
+    text-decoration: none;
+    color: white;
+    font-family: "Krub", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px;
+}
+.header-img{
+    position: absolute;
+    right: -8%;
+    top: 17%;
+}
+.header-text{
+    position: absolute;
+    top: 18%;
+    left: 15%;
+    font-family: "Koh Santepheap", serif;
+}
+.header-text h1{
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+}
+.header-text p{
+    color: white;
+    width: 60%;
+    letter-spacing: 1px;
+}
+.steps-title p{
+    font-family: "Koh Santepheap", serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+    margin-left: 10%;
+
+}
+.steps{
+    margin-top: -70px;
+    
+}
+.steps hr{
+    width: 87%;
+    margin: 2% 8%;
+    margin-right: 20%;
+    border: none;
+    height: 1px;
+    border-top: 0.5px solid black;    
+}
+.colored-section{
+    background-color: #122278;
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+}
+.colored-img{
+    width: 20%;
+    margin: 120px 50px 0 100px;
+}
+.colored-text{
+    background-color: #5667C4;
+    width: 700px;
+    height: 315px;
+    border-radius: 30px;
+    color: white;
+    font-family: "Koh Santepheap", serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 30px;
+    margin-left: 150px;
+}
+.colored-text p{
+    margin: 10px;
+}
+.footer{
+    background-color: #5667C4;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+}
+.copyright p{
+    margin: 5px;
+    color: white;
+    font-family: "Koh Santepheap", serif;
+    font-weight: 500;
+}
+.contact p{
+    margin: 5px;
+    color: white;
+    font-family: "Koh Santepheap", serif;
+    font-weight: 500;
+}
+.follow p{
+    margin: 3px;
+    color: white;
+    font-family: "Koh Santepheap", serif;
+    font-weight: 500;
+}
+.fa{
+    padding-right: 10px;
+}
