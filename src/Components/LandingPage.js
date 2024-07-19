@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../Style/LandingPage.css'
 import headerImg from '../img/landHeader.png'
-import LadingPageCard from './LadingPageCard'
+import LandingPageCard from './LandingPageCard'
 import Card1 from '../img/card-img1.webp'
 import Card2 from '../img/card-img2.jpg'
 import Card3 from '../img/card-img3.jpg'
@@ -56,7 +56,7 @@ export default function LandingPage() {
         
             <div className='header-body'>
                 <div className='header-link'>
-                    <Link className='hLink' to="/patientLogin"  style={{borderRight: '2px solid white', paddingRight: '40px'}}>Patient's Login</Link>
+                    <Link className='hLink' to="/patientLogin"  >Patient's Login</Link>
                     <Link className='hLink' to="/doctorLogin">Doctor's Login</Link>
                 </div>
                 <div className='header-text'>
@@ -73,9 +73,9 @@ export default function LandingPage() {
                 <p style={{color: '#F8BD00'}}>in Easy Steps</p>
             </div>
             <hr />
-            <div style={{display: 'flex', justifyContent: 'center'}}>
+            <div className="card-container">
                 {imgData.map((card, index) => (
-                    <LadingPageCard
+                    <LandingPageCard
                     key={index}
                     imageSrc={card.imageSrc}
                     title={card.title}

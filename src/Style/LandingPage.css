@@ -1,76 +1,100 @@
-.header-color{
+
+.header-color {
     position: relative;
     overflow: hidden;
-}
-
-.header-link{
+  }
+  
+  .header-link {
     position: absolute;
     top: 2%;
     right: 3%;
-}
-.hLink{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .hLink {
     text-decoration: none;
     color: white;
     font-family: "Krub", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    position: relative;
+  }
+
+.hLink:hover {
+    color: #F8BD00;
+    background-color: rgba(255, 255, 255, 0.1);
 }
-.header-img{
+
+  .header-img {
     position: absolute;
     right: -8%;
     top: 17%;
-}
-.header-text{
+    max-width: 100%;
+    height: auto;
+  }
+  .header-text {
     position: absolute;
     top: 18%;
     left: 15%;
     font-family: "Koh Santepheap", serif;
-}
-.header-text h1{
+  }
+  .header-text h1 {
     font-weight: 700;
     font-size: 50px;
     margin: 0;
-}
-.header-text p{
+  }
+  .header-text p {
     color: white;
     width: 60%;
     letter-spacing: 1px;
-}
-.steps-title p{
+  }
+ 
+  .steps-title p {
     font-family: "Koh Santepheap", serif;
     font-weight: 700;
     font-size: 30px;
     margin: 0;
     margin-left: 10%;
-
-}
-.steps{
+    position: relative;
+   
+  }
+  .steps {
     margin-top: -70px;
-    
-}
-.steps hr{
+  }
+  .steps hr {
     width: 87%;
     margin: 2% 8%;
     margin-right: 20%;
     border: none;
     height: 1px;
-    border-top: 0.5px solid black;    
-}
-.colored-section{
+    border-top: 0.5px solid black;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  
+  .colored-section {
     background-color: #122278;
     display: flex;
     margin-top: 150px;
     align-items: center;
-}
-.colored-img{
-    width: 20%;
-    margin: 120px 50px 0 100px;
-}
-.colored-text{
+    flex-wrap: wrap;
+  }
+  .colored-img {
+    width: 100%;
+    max-width: 200px;
+    margin: 20px;
+  }
+  .colored-text {
     background-color: #5667C4;
-    width: 700px;
-    height: 315px;
+    flex: 1 1 300px;
     border-radius: 30px;
     color: white;
     font-family: "Koh Santepheap", serif;
@@ -78,12 +102,13 @@
     font-size: 18px;
     letter-spacing: 1px;
     padding: 30px;
-    margin-left: 150px;
-}
-.colored-text p{
+    margin: 20px;
+  }
+  .colored-text p {
     margin: 10px;
-}
-.footer{
+  }
+  
+  .footer{
     background-color: #5667C4;
     display: flex;
     justify-content: space-between;
@@ -110,3 +135,55 @@
 .fa{
     padding-right: 10px;
 }
+
+
+  
+  
+  @media (max-width: 1440px) {
+    .header-text h1 {
+      font-size: 36px;
+    }
+    .header-text p {
+      width: 80%;
+    }
+    .steps-title p {
+      font-size: 24px;
+      margin-left: 5%;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 150px;
+    }
+
+    .footer .copyright,
+    .footer .contact,
+    .footer .follow {
+        flex: 1;
+        padding: 0 20px;
+        text-align: left;
+    }
+
+    .footer .copyright p,
+    .footer .contact p,
+    .footer .follow p {
+        margin: 5px;
+        color: white;
+        font-family: "Koh Santepheap", serif;
+        font-weight: 500;
+    }
+
+    .footer .follow p {
+        margin: 3px;
+    }
+
+    .footer .fa {
+        padding-right: 10px;
+    }
+    }
+  
+
+  
+ 
