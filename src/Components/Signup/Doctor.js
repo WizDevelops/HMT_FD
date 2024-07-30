@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../Style/Signup.css'
-import docImg from '../../img/docLogin.webp'
+import docImg from '../../img/doctor-signup.webp'
 import google from '../../img/google.png'
 
 export default function Doctor() {
@@ -44,7 +44,7 @@ export default function Doctor() {
                 <p className='doc-head'>Signup Here</p>
                 <form action="post" >    
                     <input type="text" id="username" name="username" placeholder='Username*' required/><br />
-                    <input type="text" id="username" name="username" placeholder='Password*' required/><br/>
+                    <input type="password" id="password" name="password" placeholder='Password*' required/><br/>
                     <input type="text" id="firstName" name="firstName" placeholder='First Name*' required/><br />
                     <input type="text" id="lastName" name="lastName" placeholder='Last Name*' required/><br />
                     <input type="text" id="phone" name="phone" placeholder='Phone Number*' required/><br />

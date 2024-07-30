@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../Style/Login.css'
 import docImg from '../../img/docLogin.webp'
+import patientLogo from '../../img/patientlogo.png'
 import google from '../../img/google.png'
 
 export default function Doctors() {
@@ -40,11 +41,12 @@ export default function Doctors() {
         <div className='doc-text'>
             
             <div className='doc-form'>
+            <img className='logo-img' src={patientLogo} alt='Patient Logo' />
                 <p className='doc-title'>Doctors</p>
                 <p className='doc-head'>Sign in to your account</p>
                 <form action="post" >    
                     <input type="text" id="username" name="username" placeholder='Username*' required/><br />
-                    <input type="text" id="username" name="username" placeholder='Password*' required/>
+                    <input type="password" id="password" name="password" placeholder='Password*' required/>
                     <div className='forgot'>
                         <div style={{display: 'flex'}}>
                             <input type="checkbox" id="remember" name="remember" style={{fontSize: '15px',cursor: 'pointer'}}/>
@@ -62,6 +64,9 @@ export default function Doctors() {
                     </div>
                     <div className='google'>
                             <hr /><img className='google-icon' src={google} alt="" /><hr />
+                    </div>
+                    <div className='signup'>
+                        <p>Don't have an account? <a href='Doctorsignup'><b>Signup here</b></a></p>
                     </div>
                 </form>
             </div>
