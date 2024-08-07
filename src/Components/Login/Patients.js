@@ -66,7 +66,7 @@ export default function Patients() {
                             <hr /><img className='google-icon' src={google} alt="" /><hr />
                     </div>
                     <div className='signup'>
-                        <p>Don't have an account? <a href='/'><b>Signup here</b></a></p>
+                        <p>Don't have an account? <a href='/patientSignup'><b>Signup here</b></a></p>
                     </div>
                 </form>
             </div>

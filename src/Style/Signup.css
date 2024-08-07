@@ -1,4 +1,4 @@
-.doc-con{
+.signup-page .doc-con{
     background: linear-gradient(to bottom, #2B51B4, #13234E);
     height: 100vh;
     margin: 0;
@@ -9,21 +9,21 @@
     margin: 0;
     
 }
-.doc-img{
+.signup-page .doc-img{
     /* height: 100vh; */
     width: 50%;
     height: 100%;
     object-fit: cover;
     position: relative;
 }
-.doc-title{
+.signup-page .doc-title{
     font-family: "Koh Santepheap", serif;
     top:0% ;
     font-size: 65px;
     font-weight: 700;
     margin: 0;
 }
-.doc-head{
+.signup-page .doc-head{
     font-family: "Koh Santepheap", serif;
     font-size: 35px;
     top: 10%;
@@ -33,12 +33,12 @@
     margin: 0;
     letter-spacing: 1px;
 }
-.doc-text{
+.signup-page .doc-text{
     display: flex;
     justify-content: center;
     width: 40%;
 }
-.doc-form{
+.signup-page .doc-form{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@
     align-items: center;
     text-align: center;
 }
-form{
+.signup-page form{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,7 +58,7 @@ form{
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none;
 }
-input, select{
+.signup-page input, .signup-page select{
     background: transparent;
     border: none;
     border-bottom: 1px solid white;
@@ -69,18 +69,18 @@ input, select{
     font-size: 18px;
     margin-bottom: 20px;
 }
-option{
+.signup-page option{
     background-color: #13234E;
 }
-input:focus, select:focus{
+.signup-page input:focus, .signup-page select:focus{
     outline: none;
 }
-input::placeholder, select::placeholder{
+.signup-page input::placeholder, .signup-page select::placeholder{
     color: white;
     font-size: 16px;
 }
 
-.sign-in{
+.signup-page .sign-in{
     padding: 10px 25px;
     font-family: "Koh Santepheap", serif;
     color: #1F94A4;
@@ -92,28 +92,29 @@ input::placeholder, select::placeholder{
     box-shadow: 10px 10px spread #12227885 ;
     margin-top: 20px;
 }
-.sign-in:hover{
+.signup-page .sign-in:hover{
     background-color: rgb(221, 244, 248);
     color: #047988;
 }
-.google-icon{
+.signup-page .google-icon{
     overflow: hidden;
     width: 35px;
 }
-.google{
+.signup-page .google{
     width: 100%;
     text-align: center;
     display: flex;
+    cursor: pointer;
 }
-hr{
+.signup-page hr{
     width: 60%; 
   margin: auto 10px;
   /* border-top: 2px solid #ddd; */
 }
-#image0_2_537{
+.signup-page #image0_2_537{
     display: block;
 }
-.back-btn{
+.signup-page .back-btn{
     position: absolute;
     top: 3%;
     right: 20%;

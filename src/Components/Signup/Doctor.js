@@ -6,7 +6,7 @@ import google from '../../img/google.png'
 
 export default function Doctor() {
   return (
-    <div className='doc-con'>
+    <div className='doc-con signup-page'>
         
         <div className="doc-img">
             <svg style={{height:'100vh', width: '100%'}} viewBox="0 0 1100 1024"  fill="none">

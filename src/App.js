@@ -5,6 +5,7 @@ import Doctors from './Components/Login/Doctors';
 import LandingPage from './Components/LandingPage';
 import Patients from './Components/Login/Patients';
 import Doctor from './Components/Signup/Doctor';
+import Patient from './Components/Signup/Patient';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Route path='/doctorLogin' element={<Doctors/>}></Route>
         <Route path='/patientLogin' element={<Patients/>}></Route>
         <Route path='/doctorSignup' element={<Doctor/>}></Route>
-      </Routes>
+        <Route path='/patientSignup' element={<Patient/>}></Route>      
+        </Routes>
     </BrowserRouter>
   );
 }
