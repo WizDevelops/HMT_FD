@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../../Style/Signup.css'
-import docImg from '../../img/doctor-signup.webp'
+import docImg from '../../img/patient-signup.webp'
 import google from '../../img/google.png'
 
 export default function Patient() {
